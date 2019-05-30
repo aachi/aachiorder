@@ -1,5 +1,10 @@
 package aachiorder
 
+import (
+	"context"
+	"errors"
+)
+
 type Order struct {
 	ID           string      `json:"id,omitempty"`
 	CustomerID   string      `json:"customer_id"`
